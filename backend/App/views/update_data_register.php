@@ -53,13 +53,13 @@ echo $header;
                                 </div>
 
                                 <div class="row">
-                                    <div class="col-12 col-lg-4">
+                                    <div class="col-12 col-lg-2">
                                         <label class="form-label mt-4">Apellido materno *</label>
                                         <div class="input-group">
                                             <input id="apellido_materno" name="apellido_materno" maxlength="29" pattern="[a-zA-Z ÑñáÁéÉíÍóÚ]*" class="form-control" type="text" placeholder="Thompson" required="required" onfocus="focused(this)" onfocusout="defocused(this)" value="<?= $userData['apellido_materno'] ?>" style="text-transform:uppercase;" onkeyup="javascript:this.value=this.value.toUpperCase();">
                                         </div>
                                     </div>
-                                    <div class="col-sm-4 col-12">
+                                    <div class="col-sm-3 col-12">
                                         <label class="form-label mt-4">Me identifico como: *</label>
                                         <select class="form-control" style="cursor: pointer;" name="genero" id="genero" placeholder="Genero">
                                             <option value="" selected disabled>Selecciona una opción</option>
@@ -98,6 +98,11 @@ echo $header;
                                         </select>
 
 
+                                    </div>
+                                    <div class="col-sm-3 col-12">
+                                        <label class="form-label mt-4">Estado *</label>
+                                        <select class="multisteps-form__select form-control all_input_select" name="state" id="state" disabled>
+                                        </select>
                                     </div>
                                     <div class="row">
                                         <div class="col-lg-5 col-12">
@@ -174,8 +179,8 @@ echo $header;
 
                                                     <!-- <input type="hidden" id="id_registro" name="id_registro" value="<?= $id_registro ?>"> -->
                                                     <input type="hidden" id="email" name="email" value="<?= $email ?>">
-                                                    <div id="terminos" class="card-header pt-4 text-scroll " style="text-align: justify;">
-                                                        <!-- <p>Aquí van los terminos y condiciones</p> -->
+                                                    <!-- <div id="terminos" class="card-header pt-4 text-scroll " style="text-align: justify;">
+                                                        <p>Aquí van los terminos y condiciones</p>
                                                         <span>
 
                                                             Términos y Condiciones de Uso del sitio Foro MENTAL HEALTH AND THE BRAIN
@@ -568,11 +573,14 @@ echo $header;
                                                             <br><br>
                                                             Estos Términos y Condiciones fueron actualizados el 27/08/2021
                                                         </span>
-                                                    </div>
+                                                    </div> -->
                                                     <br>
                                                     <br>
                                                     <div class="row">
-                                                        <div class="col-md-8">
+                                                        <div class="col-md-2">   
+                                                        </div>
+                                                        <div class="col-md-4">
+                                                            <a class="btn bg-gradient-faded-danger text-light text-bold mb-0 js-btn-prev" href="https://www.google.com.mx/?hl=es-419" target="_blank" title="Term">Abrir Términos</a>
                                                         </div>
                                                         <div class="col-md-4">
                                                             <div class="form-check">
@@ -581,8 +589,8 @@ echo $header;
                                                                     <b>He leído y acepto los términos y condiciones de Farmacovigilancia</b>
                                                                 </label>
                                                             </div>
-
-
+                                                        </div>
+                                                        <div class="col-md-2">   
                                                         </div>
                                                     </div>
                                                 </div>
@@ -601,8 +609,8 @@ echo $header;
 
                                                     <!-- <input type="hidden" id="id_registro" name="id_registro" value="<?= $id_registro ?>"> -->
                                                     <input type="hidden" id="email" name="email" value="<?= $email ?>">
-                                                    <div id="terminos" class="card-header pt-4 text-scroll" style="text-align: justify;">
-                                                        <!-- <p>Aquí van los terminos y condiciones</p> -->
+                                                    <!-- <div id="terminos" class="card-header pt-4 text-scroll" style="text-align: justify;">
+                                                        <p>Aquí van los terminos y condiciones</p>
                                                         <span>
 
                                                             I. IDENTIDAD Y DOMICILIO DEL RESPONSABLE:
@@ -671,11 +679,14 @@ echo $header;
                                                             <br> <br>
                                                             Ultima actualización Diciembre 2020
                                                         </span>
-                                                    </div>
+                                                    </div> -->
                                                     <br>
                                                     <br>
                                                     <div class="row">
-                                                        <div class="col-md-8">
+                                                        <div class="col-md-2">   
+                                                        </div>
+                                                        <div class="col-md-4">
+                                                            <a class="btn bg-gradient-faded-danger-two text-light text-bold mb-0 js-btn-prev" href="https://www.google.com.mx/?hl=es-419" target="_blank" title="Advc">Abrir Aviso</a>
                                                         </div>
                                                         <div class="col-md-4">
                                                             <div class="form-check">
@@ -684,8 +695,8 @@ echo $header;
                                                                     <b>He leído y acepto los términos y condiciones del aviso de privacidad</b>
                                                                 </label>
                                                             </div>
-
-
+                                                        </div>
+                                                        <div class="col-md-2">   
                                                         </div>
                                                     </div>
                                                 </div>
@@ -705,7 +716,7 @@ echo $header;
                                     <div class="row">
                                         <div class="button-row d-flex mt-4 col-12">
                                             <a class="btn bg-gradient-light mb-0 js-btn-prev" href="/Register" title="Prev">Regresar</a>
-                                            <button class="btn bg-gradient-dark ms-auto mb-0" type="submit" title="Next">Siguiente</button>
+                                            <button class="btn bg-gradient-faded-danger text-light text-bold ms-auto mb-0" type="submit" title="Next">Siguiente</button>
                                         </div>
                                     </div>
                                 </div>
