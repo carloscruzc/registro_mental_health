@@ -9,9 +9,6 @@ echo $header;
             <nav class="navbar navbar-expand-lg  blur blur-rounded top-0  z-index-3 shadow position-absolute my-3 py-2 start-0 end-0 mx-4">
                 <div class="container-fluid">
                     <img src="/img/logo_mental_login.png" class="mb-2" height="30" alt=""> &nbsp;&nbsp;&nbsp;
-                    <a class="navbar-brand font-weight-bolder ms-lg-0 ms-3 ">
-                        Mental Health 2022
-                    </a>
                     <button class="navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon mt-2">
                             <span class="navbar-toggler-bar bar1"></span>
@@ -446,7 +443,7 @@ echo $header;
                         <div class="col-xl-4 col-lg-5 col-md-6 d-flex flex-column mx-auto">
                             <div class="card card-plain mt-7">
                                 <div class="card-header pb-0 text-start">
-                                    <h3 class="font-weight-bolder text-info text-dark">MENTAL HEALTH 2022</h3>
+                                    <h3 class="font-weight-bolder text-info text-dark">MENTAL HEALTH AND THE BRAIN FORUM</h3>
                                     <p class="mb-0">Introduzca sus credenciales para iniciar sesión.</p>
                                 </div>
                                 <div class="card-body">

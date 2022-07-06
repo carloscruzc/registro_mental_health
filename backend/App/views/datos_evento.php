@@ -4,7 +4,7 @@
     <nav class="navbar navbar-expand-lg  blur blur-rounded top-0  z-index-3 shadow position-absolute my-3 py-2 start-0 end-0 mx-4">
         <div class="container-fluid">
             <a class="navbar-brand font-weight-bolder ms-lg-0 ms-3 ">
-                Mental Health 2022
+                MENTAL HEALTH AND THE BRAIN FORUM
             </a>
             <button class="navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon mt-2">
@@ -401,7 +401,7 @@
                                 <h4><i class="fas fa-plane"></i>&nbsp;&nbsp; Distancia entre aeropuerto y sede</h4>
                                 
                                 <p>
-                                    1 hora 5 min.
+                                    30 min.
                                 </p>
                             </li>
                             <li class="list-group-item borderless">
@@ -415,9 +415,7 @@
                                 <h4><i class="fas fa-sun"></i>&nbsp;&nbsp; Clima</h4>
                                 
                                 <p>
-                                    El tiempo en Cancún durante abril 2022 será caluroso. La temperatura más baja que podrán encontrar será de 25°C y temperaturas altas de 29°C grados, es importantísimo tomar mucha agua y mantenerte fresco.
-                                    <br><br>
-                                    Habrá días de lluvia durante el mes de Abril en Cancún. así que recomendamos traer una chaqueta a prueba de agua para mantenerse seco este mes.
+                                    Agosto es típicamente el mes más caluroso del año en Cancún, aunque la temperatura promedio de 28°C grados centígrados es la misma que las temperaturas promedio de junio y julio. El máximo promedio es de 34°C grados, y el mínimo promedio es de 25°C grados.
                                 </p>
                             </li>
                             <li class="list-group-item borderless">

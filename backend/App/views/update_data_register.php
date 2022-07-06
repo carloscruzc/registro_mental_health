@@ -170,16 +170,16 @@ echo $header;
                                         <p> Los campos marcados con (*) son obligatorios.</p>
                                     </div>
 
-                                    <!-- <div class="row">
+                                    <div class="row">
                                         <div class="col-12 text-center">
                                             <label class="form-label mt-4"><b>TÉRMINOS Y CONDICIONES</b></label>
                                             <div class="card z-index-0">
 
-                                                <div class="card-body pt-1"> -->
+                                                <div class="card-body pt-1">
 
-                                                    <!-- <input type="hidden" id="id_registro" name="id_registro" value="<?= $id_registro ?>"> -->
-                                                    <!-- <input type="hidden" id="email" name="email" value="<?= $email ?>"> -->
-                                                    <!-- <div id="terminos" class="card-header pt-4 text-scroll " style="text-align: justify;">
+                                                    <input type="hidden" id="id_registro" name="id_registro" value="<?= $id_registro ?>">
+                                                    <input type="hidden" id="email" name="email" value="<?= $email ?>">
+                                                    <div id="terminos" class="card-header pt-4 text-scroll " style="text-align: justify;">
                                                         <p>Aquí van los terminos y condiciones</p>
                                                         <span>
 
@@ -206,7 +206,7 @@ echo $header;
                                                             derechos sui generis y otras propiedades intelectuales y derechos patrimoniales del
                                                             mismo. Su uso del sitio web no le otorga propiedad de ninguno de los contenidos,
                                                             códigos, datos o materiales a los que pueda acceder en o a través del sitio web.
-                                                            <br><br>
+                                                            <!-- <br><br>
                                                             2. Licencia Limitada. Usted puede acceder y ver el contenido de la página
                                                             desde su dispositivo móvil o desde cualquier otro aparato y, a menos de que se
                                                             indique de otra manera en estos Términos y Condiciones o en el sitio, sacar copias
@@ -570,19 +570,17 @@ echo $header;
                                                             acuerdo en que la corte deberá esforzarse en aplicar las intenciones de las partes
                                                             como están reflejadas en la disposición, y las otras disposiciones de los Términos y
                                                             Condiciones permanecen vigentes.
-                                                            <br><br>
+                                                            -->
+                                                            <br><br> 
                                                             Estos Términos y Condiciones fueron actualizados el 27/08/2021
                                                         </span>
-                                                    </div> -->
-                                                    <!-- <br>
+                                                    </div>
+                                                    <br>
                                                     <br>
                                                     <div class="row">
-                                                        <div class="col-md-2">   
+                                                        <div class="col-md-3">   
                                                         </div>
-                                                        <div class="col-md-4">
-                                                            <a class="btn bg-gradient-faded-danger text-light text-bold mb-0 js-btn-prev" href="https://www.google.com.mx/?hl=es-419" target="_blank" title="Term">Abrir Términos</a>
-                                                        </div>
-                                                        <div class="col-md-4">
+                                                        <div class="col-md-6">
                                                             <div class="form-check">
                                                                 <input class="form-check-input" type="checkbox" value="1" id="terminos" name="terminos" required>
                                                                 <label class="form-check-label" for="terminos">
@@ -590,15 +588,15 @@ echo $header;
                                                                 </label>
                                                             </div>
                                                         </div>
-                                                        <div class="col-md-2">   
+                                                        <div class="col-md-3">   
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div> -->
+                                    </div>
 
-                                    <!-- <br><br> -->
+                                    <br><br>
 
                                     <div class="row">
                                         <div class="col-12 text-center">
