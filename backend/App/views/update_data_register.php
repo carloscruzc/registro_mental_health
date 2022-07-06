@@ -170,15 +170,15 @@ echo $header;
                                         <p> Los campos marcados con (*) son obligatorios.</p>
                                     </div>
 
-                                    <div class="row">
+                                    <!-- <div class="row">
                                         <div class="col-12 text-center">
                                             <label class="form-label mt-4"><b>TÉRMINOS Y CONDICIONES</b></label>
                                             <div class="card z-index-0">
 
-                                                <div class="card-body pt-1">
+                                                <div class="card-body pt-1"> -->
 
                                                     <!-- <input type="hidden" id="id_registro" name="id_registro" value="<?= $id_registro ?>"> -->
-                                                    <input type="hidden" id="email" name="email" value="<?= $email ?>">
+                                                    <!-- <input type="hidden" id="email" name="email" value="<?= $email ?>"> -->
                                                     <!-- <div id="terminos" class="card-header pt-4 text-scroll " style="text-align: justify;">
                                                         <p>Aquí van los terminos y condiciones</p>
                                                         <span>
@@ -574,7 +574,7 @@ echo $header;
                                                             Estos Términos y Condiciones fueron actualizados el 27/08/2021
                                                         </span>
                                                     </div> -->
-                                                    <br>
+                                                    <!-- <br>
                                                     <br>
                                                     <div class="row">
                                                         <div class="col-md-2">   
@@ -596,9 +596,9 @@ echo $header;
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> -->
 
-                                    <br><br>
+                                    <!-- <br><br> -->
 
                                     <div class="row">
                                         <div class="col-12 text-center">
