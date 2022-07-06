@@ -27,14 +27,14 @@ class Mailer
             $mail->isSMTP();                                            //Send using SMTP
             $mail->Host       = 'smtp.gmail.com';                     //Set the SMTP server to send through
             $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-            $mail->Username   = 'mujersalud2022@gmail.com';                     //SMTP username
-            $mail->Password   = 'grupolahe664';                               //SMTP password
+            $mail->Username   = 'healthmentalbrain@gmail.com';                     //SMTP username
+            $mail->Password   = 'smtocpygelhrissc';                               //SMTP password
             $mail->SMTPSecure = 'ssl';
             $mail->SMTPAutoTLS = false;            //Enable implicit TLS encryption
             $mail->Port       = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
             //Recipients
-            $mail->setFrom($msg['email'], 'MUSA 2022 Registro');
+            $mail->setFrom($msg['email'], 'MENTAL HEALTH 2022 Registro');
             $mail->addAddress($msg['email'], 'a');     //Add a recipient
 
 
@@ -83,13 +83,13 @@ class Mailer
         <body leftmargin="0" topmargin="0" marginheight="0" marginwidth="0">
                     
             <div class="container">
-                <img src="https://registro.foromusa.com/img/musa-01.png" alt="">
-                <br>
+                <!--<img src="https://registro.forum-mentalbrain.com/assets/img/cinta_correo.png" alt="">
+                <br>-->
                 <p>
                     Estamos ansiosos de volverlo a ver…
                 </p>
                 <p>
-                    Este mensaje se le envió porque usted está intentando registrar su cuenta de correo electrónico a <b>FORO MUSA Mujer Salud 2022</b>
+                    Este mensaje se le envió porque usted está intentando registrar su cuenta de correo electrónico a <b>Mental Health and the Brain 2022</b>
                      Si no fue usted ignore este mensaje.
                 </p>
                 
@@ -101,7 +101,7 @@ class Mailer
                     Su código es: <span><b style="background: #e389;">'. $msg['code'] .'</b></span>
                 </p>
                 <p>
-                    El código es válido por 24 horas y sólo se puede usar una vez, atentamente su equipo ADIUM.
+                    El código es válido por 24 horas y sólo se puede usar una vez, atentamente su equipo ASOFARMA.
                 </p> 
                 
             </div>
@@ -140,14 +140,14 @@ class Mailer
             $mail->isSMTP();                                            //Send using SMTP
             $mail->Host       = 'smtp.gmail.com';                     //Set the SMTP server to send through
             $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-            $mail->Username   = 'mujersalud2022@gmail.com';                     //SMTP username
-            $mail->Password   = 'grupolahe664';                               //SMTP password
+            $mail->Username   = 'healthmentalbrain@gmail.com';                     //SMTP username
+            $mail->Password   = 'smtocpygelhrissc';                                //SMTP password
             $mail->SMTPSecure = 'ssl';
             $mail->SMTPAutoTLS = false;            //Enable implicit TLS encryption
             $mail->Port       = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
             //Recipients
-            $mail->setFrom($msg['email'], 'MUSA 2022 Registro');
+            $mail->setFrom($msg['email'], 'MENTAL HEALTH 2022 Registro');
             $mail->addAddress($msg['email'], 'a');     //Add a recipient
 
             $html = '     
@@ -195,10 +195,10 @@ class Mailer
                 <body leftmargin="0" topmargin="0" marginheight="0" marginwidth="0">
                     
                     <div class="container">
-                    <img src="https://registro.foromusa.com/img/musa-01.png" alt="">
+                    <!--<img src="https://registro.forum-mentalbrain.com/assets/img/cinta_correo.png" alt="">-->
                         <p style="text-align: center !important;">
                             Estimado, ' . $msg['name'] . ' : 
-                            <strong>¡Su registro a FORO MUSA Mujer Salud 2022 fue exitoso!</strong>
+                            <strong>¡Su registro a FORO MENTAL HEALTH AND THE BRAIN 2022 fue exitoso!</strong>
                             
                         </p>
                     </div>

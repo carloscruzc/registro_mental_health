@@ -602,7 +602,7 @@ echo $header;
 
                                     <div class="row">
                                         <div class="col-12 text-center">
-                                            <label class="form-label mt-4"><b>AVISO DE PRIVACIDAD</b></label>
+                                            <!-- <label class="form-label mt-4"><b>AVISO DE PRIVACIDAD</b></label> -->
                                             <div class="card z-index-0">
 
                                                 <div class="card-body pt-1">
@@ -680,23 +680,19 @@ echo $header;
                                                             Ultima actualización Diciembre 2020
                                                         </span>
                                                     </div> -->
-                                                    <br>
-                                                    <br>
+
                                                     <div class="row">
-                                                        <div class="col-md-2">   
+                                                        <div class="col-md-3">   
                                                         </div>
-                                                        <div class="col-md-4">
-                                                            <a class="btn bg-gradient-faded-danger-two text-light text-bold mb-0 js-btn-prev" href="https://www.google.com.mx/?hl=es-419" target="_blank" title="Advc">Abrir Aviso</a>
-                                                        </div>
-                                                        <div class="col-md-4">
+                                                        <div class="col-md-6">
                                                             <div class="form-check">
                                                                 <input class="form-check-input" type="checkbox" value="1" id="terminos1" name="terminos1" required>
                                                                 <label class="form-check-label" for="terminos1">
-                                                                    <b>He leído y acepto los términos y condiciones del aviso de privacidad</b>
+                                                                    <b>He leído y acepto el <a style="text-decoration: underline; color:#3EB8BA;" href="https://www.google.com.mx/?hl=es-419" target="_blank" title="Aviso de privacidad">aviso de privacidad</a></b>
                                                                 </label>
                                                             </div>
                                                         </div>
-                                                        <div class="col-md-2">   
+                                                        <div class="col-md-3">   
                                                         </div>
                                                     </div>
                                                 </div>

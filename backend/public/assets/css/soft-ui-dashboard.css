@@ -21377,6 +21377,11 @@ label,
   background-image: radial-gradient(370px circle at 20% 90%, rgba(33, 99, 120, 0.8) 0, #3EB8BA 100%);
 }
 
+.bg-gradient-faded-danger-text {
+  color: #3EB8BA;
+  text-decoration: bold,underline;
+}
+
 .bg-gradient-faded-light {
   background-image: radial-gradient(370px circle at 80% 50%, rgba(233, 236, 239, 0.6) 0, #cbd3da 100%);
 }
