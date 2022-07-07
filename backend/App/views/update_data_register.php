@@ -686,7 +686,7 @@ echo $header;
                                                             <div class="form-check">
                                                                 <input class="form-check-input" type="checkbox" value="1" id="terminos1" name="terminos1" required>
                                                                 <label class="form-check-label" for="terminos1">
-                                                                    <b>He leído y acepto el <a style="text-decoration: underline; color:#3EB8BA;" href="https://www.google.com.mx/?hl=es-419" target="_blank" title="Aviso de privacidad">aviso de privacidad</a></b>
+                                                                    <b>He leído y acepto el <a style="text-decoration: underline; color:#3EB8BA;" href="https://www.asofarma.com.mx/aviso-de-privacidad/" target="_blank" title="Aviso de privacidad">aviso de privacidad</a></b>
                                                                 </label>
                                                             </div>
                                                         </div>

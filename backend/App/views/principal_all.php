@@ -59,7 +59,7 @@
                 <input type="hidden" id="id_asistente" class="form-control" value="<?= $_SESSION['utilerias_asistentes_id'] ?>">
                     <div  id="days-desk" class="card-header d-flex pb-0 p-3">
                         <h6 id="titulo-program" class="my-auto">Programa</h6>
-                        <div class="nav-wrapper position-relative ms-auto w-60">
+                        <div class="nav-wrapper position-relative ms-auto w-80">
                             <ul class="nav nav-pills nav-fill p-1 flex-row" role="tablist">
                                 <li class="nav-item">
                                     <a class="nav-link mb-0 px-0 py-1 active" data-bs-toggle="tab" href="#cam" role="tab" aria-controls="cam" aria-selected="true">
@@ -79,6 +79,11 @@
                                 <li class="nav-item">
                                     <a class="nav-link mb-0 px-0 py-1" data-bs-toggle="tab" href="#cam3" role="tab" aria-controls="cam3" aria-selected="false">
                                         19-2 Agosto
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link mb-0 px-0 py-1" data-bs-toggle="tab" href="#cam5" role="tab" aria-controls="cam3" aria-selected="false">
+                                        19-3 Agosto
                                     </a>
                                 </li>
                                 <li class="nav-item">
@@ -118,6 +123,11 @@
                                     </a>
                                 </li>
                                 <li id="movil-li" class="nav-item">
+                                    <a id="nav-day" class="nav-link mb-0 px-3 py-1" data-bs-toggle="tab" href="#cam5" role="tab" aria-controls="cam3" aria-selected="false">
+                                        19-3 Agosto
+                                    </a>
+                                </li>
+                                <li id="movil-li" class="nav-item">
                                     <a id="nav-day" class="nav-link mb-0 px-3 py-1" data-bs-toggle="tab" href="#cam4" role="tab" aria-controls="cam3" aria-selected="false">
                                         20 Agosto
                                     </a>
@@ -129,16 +139,16 @@
                     </div>
                     <div class="card-body p-3 mt-2">
                         <div class="tab-content" id="v-pills-tabContent">
-                            <div class="tab-pane fade show position-relative active height-programa border-radius-lg" id="cam" role="tabpanel" aria-labelledby="cam" >
+                            <div class="tab-pane fade show position-relative active border-radius-lg" id="cam" role="tabpanel" aria-labelledby="cam" >
                                 <div class="row">
                                     <div class="col-12">
                                         <div class="card">
-                                            <img src="../../assets/img/curved-images/mental/programa_1.jpg" alt="">
+                                            <img src="../../assets/img/curved-images/mental/1.png" alt="">
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="tab-pane fade position-relative height-programa border-radius-lg" id="cam0" role="tabpanel" aria-labelledby="cam0" >
+                            <!-- <div class="tab-pane fade position-relative height-programa border-radius-lg" id="cam0" role="tabpanel" aria-labelledby="cam0" >
                                 <div class="row">
                                     <div class="col-12">
                                         <div class="card">
@@ -146,39 +156,48 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="tab-pane fade position-relative height-programa border-radius-lg" id="cam1" role="tabpanel" aria-labelledby="cam1" >
+                            </div> -->
+                            <div class="tab-pane fade position-relative border-radius-lg" id="cam1" role="tabpanel" aria-labelledby="cam1" >
                                 <div class="row">
                                     <div class="col-12">
                                         <div class="card">
-                                            <img src="../../assets/img/curved-images/mental/programa_2.jpg" alt="">
+                                            <img src="../../assets/img/curved-images/mental/2.png" alt="">
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="tab-pane fade position-relative height-programa border-radius-lg" id="cam2" role="tabpanel" aria-labelledby="cam2" >
+                            <div class="tab-pane fade position-relative border-radius-lg" id="cam2" role="tabpanel" aria-labelledby="cam2" >
                                 <div class="row">
                                     <div class="col-12">
                                         <div class="card">
-                                            <img src="../../assets/img/curved-images/mental/programa_3.jpg" alt="">
+                                            <img src="../../assets/img/curved-images/mental/3.png" alt="">
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="tab-pane fade position-relative height-programa border-radius-lg" id="cam3" role="tabpanel" aria-labelledby="cam3" >
+                            <div class="tab-pane fade position-relative border-radius-lg" id="cam5" role="tabpanel" aria-labelledby="cam3" >
                                 <div class="row">
                                     <div class="col-12">
                                         <div class="card">
-                                            <img src="../../assets/img/curved-images/mental/programa_4.jpg" alt="">
+                                            <img src="../../assets/img/curved-images/mental/5.png" alt="">
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="tab-pane fade position-relative height-programa border-radius-lg" id="cam4" role="tabpanel" aria-labelledby="cam3" >
+                            <div class="tab-pane fade position-relative border-radius-lg" id="cam3" role="tabpanel" aria-labelledby="cam3" >
                                 <div class="row">
                                     <div class="col-12">
                                         <div class="card">
-                                            <img src="../../assets/img/curved-images/mental/programa_5.jpg" alt="">
+                                            <img src="../../assets/img/curved-images/mental/4.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade position-relative border-radius-lg" id="cam4" role="tabpanel" aria-labelledby="cam3" >
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="card">
+                                            <img src="../../assets/img/curved-images/mental/6.png" alt="">
                                         </div>
                                     </div>
                                 </div>
