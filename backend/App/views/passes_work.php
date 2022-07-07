@@ -29,7 +29,7 @@
                 <div class="row mt-lg-0 mt-1">
                     <div class="col-lg-5 my-auto">
                         <h1 class=" text-bolder text-gradient text-rosa fadeIn1 fadeInBottom ">Estamos preparando sus Pases de Abordar</h1>
-                        <h4 class="fadeIn3 fadeInBottom opacity-8">Estarán activos una vez que se valide su comprobante de vacunación y su prueba SARS-CoV-2. </h4>
+                        <!-- <h4 class="fadeIn3 fadeInBottom opacity-8">Estarán activos una vez que se valide su comprobante de vacunación y su prueba SARS-CoV-2. </h4> -->
                         <p class="lead opacity-6 fadeIn2 fadeInBottom">Le sugerimos que vaya a la página de inicio...</p>
                         <a href="/Home/" type="button" class="btn bg-gradient-info mt-4 fadeIn2 fadeInBottom">Ir a la página de inicio</a>
                     </div>

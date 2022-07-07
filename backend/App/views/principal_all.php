@@ -193,11 +193,11 @@
                         <div class="card bg-gradient-faded-musa">
                             <div class="card-body p-3">
                                 <div class="row">
-                                    <div class="col-8 my-auto">
+                                    <div class="col-12 my-auto">
                                         <div class="numbers">
-                                            <p class="text-white text-sm mb-0 text-capitalize font-weight-bold opacity-9">MENTAL HEALTH AND THE BRAIN 2022.</p>
+                                            <!-- <p class="text-white text-sm mb-0 text-capitalize font-weight-bold opacity-9"></p> -->
                                             <h5 class="text-white font-weight-bolder mb-0">
-                                                MENTAL HEALTH
+                                                MENTAL HEALTH AND THE BRAIN 2022.
                                             </h5>
                                         </div>
                                     </div>
@@ -328,7 +328,7 @@
         <div class="modal-dialog modal-lg  modal-dialog-scrollable" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Itinerario Convención 2022</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">Itinerario Mental Health and the Brain 2022</h5>
                     <span type="button" class="btn bg-gradient-danger" data-dismiss="modal" aria-label="Close">
                         X
                     </span>
@@ -360,7 +360,7 @@
                         <div class="card-body">
                             <div class="row">
                                 <div class="col-12" style="background-color: red; border-radius: 5px;">
-                                    <h5 class="text-center" style="color: #fff;">Rumbo a MUSA</h5>
+                                    <h5 class="text-center" style="color: #fff;">Rumbo a CANCÚN</h5>
                                 </div>
                                 <hr>
                             </div>
