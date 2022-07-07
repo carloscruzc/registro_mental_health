@@ -83,7 +83,7 @@ class Mailer
         <body leftmargin="0" topmargin="0" marginheight="0" marginwidth="0">
                     
             <div class="container">
-                <!--<img src="https://registro.forum-mentalbrain.com/assets/img/cinta_correo.png" alt="">
+                <img src="https://registro.forum-mentalbrain.com/assets/img/cinta_correo.png" alt="">
                 <br>-->
                 <p>
                     Estamos ansiosos de volverlo a ver…
@@ -195,7 +195,7 @@ class Mailer
                 <body leftmargin="0" topmargin="0" marginheight="0" marginwidth="0">
                     
                     <div class="container">
-                    <!--<img src="https://registro.forum-mentalbrain.com/assets/img/cinta_correo.png" alt="">-->
+                    <img src="https://registro.forum-mentalbrain.com/assets/img/cinta_correo.png" alt="">
                         <p style="text-align: center !important;">
                             Estimado, ' . $msg['name'] . ' : 
                             <strong>¡Su registro a FORO MENTAL HEALTH AND THE BRAIN 2022 fue exitoso!</strong>
