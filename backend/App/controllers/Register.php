@@ -183,9 +183,9 @@ html;
                 'email' => $register->_email,
                 'code' =>  $register->_code
             ];
-
-            $mailer = new Mailer();
-            $mailer->mailer($msg);
+            //EVITAR QUE SE MANDE CORREO DE CODIGO SI SE ENTRA A SUCCESS
+            // $mailer = new Mailer();
+            // $mailer->mailer($msg);
 
             $this->code($register->_email);
         }
@@ -628,6 +628,13 @@ html;
             </script>
       
 html;
+        //PASAR LA VARIABLE DE EMAIL
+        $register = new \stdClass();
+
+        $email = $_POST['confirm_email'];
+        $register->_email = $email;
+        //PASAR LA VARIABLE DE EMAIL
+
         if (strlen((date('y')-18))!=1) {
             $fecha_min = '20'.(date('y')-18).'-'.date('m').'-'.date('d');
         } else {
@@ -637,7 +644,7 @@ html;
         $fecha_max = '20'.date('y').'-'.date('m').'-'.date('d');
         
 
-        $email = $_POST['email'];
+        $email = $_POST['confirm_email'];
         $digit1 =  $_POST['uno'];
         $digit2 =  $_POST['dos'];
         $digit3 =  $_POST['tres'];
@@ -689,7 +696,8 @@ html;
         }
 
 
-        if($userData['code'] === $code_received){
+        //QUITAR LA VERIFICACIÓN DEL CODIGO DEL EMAIL
+        // if($userData['code'] === $code_received){
             //echo "Se verifico codigo correctamente";
             View::set('optionsLineaPrincipal',$optionsLineaPrincipal);
             View::set('userData', $userData);
@@ -701,15 +709,15 @@ html;
             View::set('header',$extraHeader);
             View::set('footer',$extraFooter);
             View::render('update_data_register');
-        }else{
+//         }else{
 
-            $alerta =<<<html
-            <div class="alert alert-danger text-white" role="alert" >
-                ¡El código de verificación no coincide, Intenta nuevamente!
-            </div>
-html;
-            $this->code($email,$alerta);
-        }
+//             $alerta =<<<html
+//             <div class="alert alert-danger text-white" role="alert" >
+//                 ¡El código de verificación no coincide, Intenta nuevamente!
+//             </div>
+// html;
+//             $this->code($email,$alerta);
+//         }
 
         // print_r($user_register);
 
