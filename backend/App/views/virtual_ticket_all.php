@@ -117,7 +117,7 @@
                         <div class="col-md-12 col-12 text-center">
                             <div id="main_ticket" hidden>
                                 <canvas id="canvas_ticket" width="1220" height="457" name="ticket-<?php echo $clave_user; ?>" alt="ticket-<?php echo $clave_user; ?>" style="background: white; width: -webkit-fill-available;">
-                                    <img src="/assets/img/boleto_musa.jpeg" alt="">
+                                    <img src="/assets/img/boleto_mental.png" alt="">
                                 </canvas> <!--  background-image: url('/img/ticket.jpg'); -->
                             </div>
                         </div>
@@ -149,7 +149,7 @@
             context = canvas.getContext('2d');
 
             var imgTicketFondo = new Image();
-            imgTicketFondo.src = '/assets/img/boleto_musa.jpeg';
+            imgTicketFondo.src = '/assets/img/boleto_mental.png';
 
             imgTicketFondo.onload = function() {
                 context.drawImage(imgTicketFondo, 0, 0);
@@ -163,7 +163,7 @@
             public.loadPicture = function() {
 
                 var imgTicketFondo = new Image();
-                imgTicketFondo.src = '/assets/img/boleto_musa.jpeg';
+                imgTicketFondo.src = '/assets/img/boleto_mental.png';
 
                 imgTicketFondo.onload = function() {
                     context.drawImage(imgTicketFondo, 0, 0);
@@ -184,15 +184,15 @@
 
                     context = canvas.getContext('2d');
 
-                    context.font="20pt Verdana";
-                    context.fillStyle = "black";
+                    context.font="24pt Verdana";
+                    context.fillStyle = "white";
 
-                    context.fillText($('#nombre-canvas').val(),280, centerY+80);
+                    context.fillText($('#nombre-canvas').val(),140, centerY+150);
 
-                    context.font="20pt Verdana";
-                    context.fillStyle = "black";
+                    context.font="24pt Verdana";
+                    context.fillStyle = "white";
 
-                    context.fillText($('#apellidos-canvas').val(),280, centerY+110);
+                    context.fillText($('#apellidos-canvas').val(),140, centerY+180);
                 }
 
             };
