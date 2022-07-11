@@ -27,7 +27,7 @@ class Contenedor extends Controller{
           <head>
             <meta charset="utf-8" />
             <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-           <link rel="icon" type="image/vnd.microsoft.icon" href="../../../assets/img/adium.png">
+           <link rel="icon" type="image/vnd.microsoft.icon" href="../../../assets/img/icono.png">
             <title>
                Home - MENTAL HEALTH
             </title>

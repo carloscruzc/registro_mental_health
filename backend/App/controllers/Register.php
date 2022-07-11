@@ -21,8 +21,8 @@ class Register{
         $extraHeader =<<<html
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link rel="apple-touch-icon" sizes="76x76" href="../../../assets/img/adium.png">
-        <link rel="icon" type="image/vnd.microsoft.icon" href="../../../assets/img/adium.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="../../../assets/img/icono.png">
+        <link rel="icon" type="image/vnd.microsoft.icon" href="../../../assets/img/icono.png">
         <title>
             Registro - MENTAL HEALTH
         </title>
@@ -204,7 +204,7 @@ html;
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="apple-touch-icon" sizes="76x76" href="/assets/img/favicon.png">
-        <link rel="icon" type="image/vnd.microsoft.icon" href="../../../assets/img/adium.png">
+        <link rel="icon" type="image/vnd.microsoft.icon" href="../../../assets/img/icono.png">
         <title>
             Registro - MENTAL HEALTH
         </title>
@@ -352,7 +352,7 @@ html;
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="apple-touch-icon" sizes="76x76" href="/assets/img/favicon.png">
-        <link rel="icon" type="image/vnd.microsoft.icon" href="../../../assets/img/adium.png">
+        <link rel="icon" type="image/vnd.microsoft.icon" href="../../../assets/img/icono.png">
         <title>
             Registro - MENTAL HEALTH
         </title>
@@ -498,7 +498,7 @@ html;
             <meta charset="utf-8" />
             <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
             <link rel="apple-touch-icon" sizes="76x76" href="/assets/img/favicon.png">
-            <link rel="icon" type="image/vnd.microsoft.icon" href="../../../assets/img/adium.png">
+            <link rel="icon" type="image/vnd.microsoft.icon" href="../../../assets/img/icono.png">
             <title>
                 Registro - MENTAL HEALTH
             </title>
@@ -729,7 +729,7 @@ html;
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="apple-touch-icon" sizes="76x76" href="/assets/img/favicon.png">
-        <link rel="icon" type="image/vnd.microsoft.icon" href="../../../assets/img/adium.png">
+        <link rel="icon" type="image/vnd.microsoft.icon" href="../../../assets/img/icono.png">
         <title>
             Registro - MENTAL HEALTH
         </title>
@@ -907,7 +907,7 @@ html;
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="apple-touch-icon" sizes="76x76" href="/assets/img/favicon.png">
-        <link rel="icon" type="image/vnd.microsoft.icon" href="../../../assets/img/adium.png">
+        <link rel="icon" type="image/vnd.microsoft.icon" href="../../../assets/img/icono.png">
         <title>
             Registro - MENTAL HEALTH
         </title>
