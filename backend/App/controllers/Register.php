@@ -1036,6 +1036,8 @@ $documento = new \stdClass();
               $email = $_POST['email'];
               $telefono = $_POST['telefono'];
               $especialidad = $_POST['especialidad'];
+              $cedula = $_POST['cedula'];
+              $fecha_nacimiento = $_POST ['fecha_nacimiento'];
               $alergia = $_POST['alergia'];
               $alergia_cual = $_POST['alergia_cual'];
               $btn_politicas = 1;
@@ -1049,6 +1051,8 @@ $documento = new \stdClass();
               $documento->_email = $email;
               $documento->_telefono = $telefono;
               $documento->_especialidad = $especialidad;
+              $documento->_cedula = $cedula;
+              $documento->_fecha_nacimiento = $fecha_nacimiento;
               $documento->_alergia = $alergia;
               $documento->_alergia_cual = $alergia_cual;
 
@@ -1106,6 +1110,7 @@ $documento = new \stdClass();
 
                 $id = DataDao::insert($register);
 
+                $documento = new \stdClass();
 
                 $nombre = $_POST['nombre'];
                 $segundo_nombre = $_POST['segundo_nombre'];
@@ -1116,11 +1121,12 @@ $documento = new \stdClass();
                 $email = $_POST['email'];
                 $telefono = $_POST['telefono'];
                 $especialidad = $_POST['especialidad'];
+                $cedula = $_POST['cedula'];
+                $fecha_nacimiento = $_POST ['fecha_nacimiento'];
                 $alergia = $_POST['alergia'];
                 $alergia_cual = $_POST['alergia_cual'];
                 $politica = 1;
-
-                $documento = new \stdClass();
+    
                 $documento->_nombre = $nombre;
                 $documento->_segundo_nombre = $segundo_nombre;
                 $documento->_apellido_paterno = $apellido_paterno;
@@ -1130,9 +1136,11 @@ $documento = new \stdClass();
                 $documento->_email = $email;
                 $documento->_telefono = $telefono;
                 $documento->_especialidad = $especialidad;
+                $documento->_cedula = $cedula;
+                $documento->_fecha_nacimiento = $fecha_nacimiento;
                 $documento->_alergia = $alergia;
                 $documento->_alergia_cual = $alergia_cual;
-                $documento->_politica = $politica;
+
 
                 if ($id) {
 

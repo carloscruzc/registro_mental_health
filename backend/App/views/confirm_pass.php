@@ -38,6 +38,8 @@ echo $header;
                                 <input type="hidden" name="pais" value="<?= $data->_pais; ?>">                               
                                 <input type="hidden" name="telefono" value="<?= $data->_telefono; ?>">
                                 <input type="hidden" name="especialidad" value="<?= $data->_especialidad; ?>">
+                                <input type="hidden" name="cedula" value="<?= $data->_cedula; ?>">
+                                <input type="hidden" name="fecha_nacimiento" value="<?= $data->_fecha_nacimiento; ?>">
                                 <input type="hidden" name="alergia" value="<?= $data->_alergia; ?>">
                                 <input type="hidden" name="alergia_cual" value="<?= $data->_alergia_cual; ?>">
 

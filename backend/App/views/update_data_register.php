@@ -127,6 +127,21 @@ echo $header;
                                     </div>
                                     <div class="row">
 
+                                    <div class="row">
+                                        <div class="col-sm-4 col-12">
+                                            <label class="form-label mt-4">Fecha de nacimiento *</label>
+                                            <div class="input-group">
+                                                <input  id="fecha_nacimiento" class="form-control" name="fecha_nacimiento" required type="date" min="1900-01-01" max="2022-01-01" placeholder="Fecha de nacimiento" required>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4 col-12">
+                                            <label class="form-label mt-4">Cédula profesional *</label>
+                                            <div class="input-group">
+                                                <input id="cedula" name="cedula" maxlength="29" class="form-control" type="text" placeholder="AGREGA TU CÉDULA" required="required" onfocus="focused(this)" onfocusout="defocused(this)" style="text-transform:uppercase;" onkeyup="javascript:this.value=this.value.toUpperCase();">
+                                            </div>
+                                        </div>
+                                    </div>
+
                                         <div class="col-md-3 col-sm-12">
                                             <label class="form-label mt-4">Restricciones Alimentarias *</label>
                                             <div class="form-check">
@@ -180,7 +195,7 @@ echo $header;
                                                     <input type="hidden" id="id_registro" name="id_registro" value="<?= $id_registro ?>">
                                                     <input type="hidden" id="email" name="email" value="<?= $email ?>">
                                                     <div id="terminos" class="card-header pt-4 text-scroll " style="text-align: justify;">
-                                                        <p>Aquí van los terminos y condiciones</p>
+                                                        <!-- <p>Aquí van los terminos y condiciones</p> -->
                                                         <span>
 
                                                             Términos y Condiciones de Uso de plataforma web del Foro Mental Health
