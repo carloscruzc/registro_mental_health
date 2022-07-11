@@ -14,7 +14,7 @@ class Data {
     $query=<<<sql
     UPDATE registros_acceso SET especialidad = :especialidad, nombre = :nombre, 
     segundo_nombre = :segundo_nombre, apellido_materno = :apellido_materno, 
-    apellido_paterno = :apellido_paterno, genero = :genero, pais = :pais, 
+    apellido_paterno = :apellido_paterno, genero = :genero, pais = :pais, estado = :estado,
     telefono = :telefono,cedula = :cedula,fecha_nacimiento = :fecha_nacimiento
     ,alergia = :alergia, alergia_cual = :alergia_cual, politica = 1  
     WHERE email = :email;
@@ -27,6 +27,7 @@ sql;
       ':apellido_materno'=>$user->_apellido_materno,
       ':genero'=>$user->_genero,
       ':pais'=>$user->_pais,
+      ':estado'=>$user->_estado,
       ':telefono'=>$user->_telefono,
       ':cedula'=>$user->_cedula,
       ':fecha_nacimiento'=>$user->_fecha_nacimiento,

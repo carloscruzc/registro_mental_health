@@ -16,6 +16,27 @@ sql;
         return $mysqli->queryAll($query);
     }
 
+    public static function getPais(){       
+      $mysqli = Database::getInstance();
+      $query=<<<sql
+      SELECT * FROM paises 
+      WHERE id_pais 
+      IN (13,28,32,46,49,54,57,62,64,91,99,156,161,174,176,177,181,187,230,233);
+  sql;
+      return $mysqli->queryAll($query);
+    }
+
+    public static function getStateByCountry($id_pais){
+      $mysqli = Database::getInstance(true);
+      $query =<<<sql
+      SELECT * FROM estados es
+      INNER JOIN paises pa ON pa.id_pais = es.id_pais
+      where pa.pais = '$id_pais';
+  sql;
+    
+      return $mysqli->queryAll($query);
+    }
+
     public static function getUserRegistrate($email){
       $mysqli = Database::getInstance(true);
       $query =<<<sql

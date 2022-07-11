@@ -198,7 +198,7 @@ class Mailer
                     <img src="https://registro.forum-mentalbrain.com/assets/img/cinta_correo.png" alt="">
                         <p style="text-align: center !important;">
                             Estimado, ' . $msg['name'] . ' : 
-                            <strong>¡Su registro a FORO MENTAL HEALTH AND THE BRAIN 2022 fue exitoso!</strong>
+                            <strong>¡Su registro a MENTAL HEALTH AND THE BRAIN FORUM 2022 fue exitoso!</strong>
                             
                         </p>
                     </div>

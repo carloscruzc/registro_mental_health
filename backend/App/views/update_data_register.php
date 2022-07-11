@@ -70,40 +70,18 @@ echo $header;
                                         <!-- <input type="text" class="form-control" value="<?= $userData['genero'] ?>" disabled> -->
                                     </div>
                                     <div class="col-sm-4 col-12">
-
                                         <label class="form-label mt-4">País de procedencia * </label>
-
-                                        <select class="form-control" style="cursor: pointer;" name="pais" id="pais" tabindex="-1" data-choice="active" required>
-                                            <option value="" selected disabled>Selecciona una opción</option>
-                                            <option value="México">México</option>
-                                            <option value="Argentina">Argentina</option>
-                                            <option value="Bolivia">Bolivia</option>
-                                            <option value="Brasil">Brasil</option>
-                                            <option value="Chile">Chile</option>
-                                            <option value="Colombia">Colombia</option>
-                                            <option value="Costa Rica">Costa Rica</option>
-                                            <option value="Cuba">Cuba</option>
-                                            <option value="Ecuador">Ecuador</option>
-                                            <option value="El Salvador">El Salvador</option>
-                                            <option value="Guatemala">Guatemala</option>
-                                            <option value="Honduras">Honduras</option>
-                                            <option value="Nicaragua">Nicaragua</option>
-                                            <option value="Panamá">Panamá</option>
-                                            <option value="Paraguay">Paraguay</option>
-                                            <option value="Perú">Perú</option>
-                                            <option value="Puerto Rico">Puerto Rico</option>
-                                            <option value="República Dominicana">República Dominicana</option>
-                                            <option value="Uruguay">Uruguay</option>
-                                            <option value="Venezuela">Venezuela</option>
+                                        <select class="multisteps-form__select form-control all_input_select" name="pais" id="pais" required>
+                                            <option value="" selected>Selecciona una Opción</option>
+                                            <?= $optionPais ?>
                                         </select>
-
-
                                     </div>
-                                    <!-- <div class="col-sm-3 col-12">
+                                    <div class="col-sm-3 col-12">
                                         <label class="form-label mt-4">Estado *</label>
-                                        <select class="multisteps-form__select form-control all_input_select" name="state" id="state" disabled>
-                                        </select>
-                                    </div> -->
+                                            <select class="multisteps-form__select form-control all_input_select" name="estado" id="estado" required disabled>
+                                                <option value="" selected>Selecciona una Opción</option>
+                                            </select>
+                                    </div>
                                     <div class="row">
                                         <div class="col-lg-5 col-12">
                                             <label class="form-label mt-4">Correo electrónico</label>
@@ -368,7 +346,7 @@ echo $header;
                                                             <div class="form-check">
                                                                 <input class="form-check-input" type="checkbox" value="1" id="terminos" name="terminos" required>
                                                                 <label class="form-check-label" for="terminos">
-                                                                    <b>He leído y acepto los términos y condiciones de Farmacovigilancia</b>
+                                                                    <b>He leído y acepto los términos y condiciones</b>
                                                                 </label>
                                                             </div>
                                                         </div>
@@ -524,4 +502,50 @@ echo $header;
 
         });
     });
+
+    $("#pais").on("change", function() {
+            var pais = $(this).val();
+            $.ajax({
+                url: "/Register/getEstadoPais",
+                type: "POST",
+                data: {
+                    pais
+                },
+                dataType: "json",
+                beforeSend: function() {
+                    console.log("Procesando....");
+                    $('#estado')
+                        .find('option')
+                        .remove()
+                        .end();
+
+                },
+                success: function(respuesta) {
+                    console.log(respuesta);
+
+                    $('#estado').removeAttr('disabled');
+
+                    $('#estado')
+                        .append($('<option>', {
+                                value: ''
+                            })
+                            .text('Selecciona una opción'));
+
+                    $.each(respuesta, function(key, value) {
+                        //console.log(key);
+                        console.log(value);
+                        $('#estado')
+                            .append($('<option>', {
+                                    value: value.estado
+                                })
+                                .text(value.estado));
+                    });
+
+                },
+                error: function(respuesta) {
+                    console.log(respuesta);
+                }
+
+            });
+        });
 </script>

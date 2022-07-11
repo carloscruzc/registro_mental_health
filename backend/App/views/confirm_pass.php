@@ -35,7 +35,8 @@ echo $header;
                                 <input type="hidden" name="apellido_materno" value="<?= $data->_apellido_materno; ?>">
                                 <input type="hidden" name="apellido_paterno" value="<?= $data->_apellido_paterno; ?>">
                                 <input type="hidden" name="genero" value="<?= $data->_genero; ?>">
-                                <input type="hidden" name="pais" value="<?= $data->_pais; ?>">                               
+                                <input type="hidden" name="pais" value="<?= $data->_pais; ?>">
+                                <input type="hidden" name="estado" value="<?= $data->_estado; ?>">                               
                                 <input type="hidden" name="telefono" value="<?= $data->_telefono; ?>">
                                 <input type="hidden" name="especialidad" value="<?= $data->_especialidad; ?>">
                                 <input type="hidden" name="cedula" value="<?= $data->_cedula; ?>">

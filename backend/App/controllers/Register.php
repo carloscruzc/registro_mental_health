@@ -628,6 +628,14 @@ html;
             </script>
       
 html;
+        $paises = RegisterDao::getPais();
+        $paises = RegisterDao::getPais();
+        $optionPais = '';
+        foreach($paises as $key => $value){
+            $optionPais .= <<<html
+                    <option value="{$value['pais']}">{$value['pais']}</option>
+html;
+        }
         //PASAR LA VARIABLE DE EMAIL
         $register = new \stdClass();
 
@@ -699,6 +707,9 @@ html;
         //QUITAR LA VERIFICACIÓN DEL CODIGO DEL EMAIL
         // if($userData['code'] === $code_received){
             //echo "Se verifico codigo correctamente";
+
+
+            View::set('optionPais', $optionPais);
             View::set('optionsLineaPrincipal',$optionsLineaPrincipal);
             View::set('userData', $userData);
             View::set('fecha_min', $fecha_min);
@@ -721,6 +732,16 @@ html;
 
         // print_r($user_register);
 
+    }
+
+    public function getEstadoPais(){
+        $pais = $_POST['pais'];
+
+        if (isset($pais)) {
+            $Paises = RegisterDao::getStateByCountry($pais);
+
+            echo json_encode($Paises);
+        }
     }
 
     public function Politicas(){
@@ -857,6 +878,7 @@ html;
               $apellido_materno = $_POST['apellido_materno'];
               $genero = $_POST['genero'];
               $pais = $_POST['pais'];
+              $estado = $_POST['estado'];
               $email = $_POST['email'];
               $telefono = $_POST['telefono'];
               $especialidad = $_POST['especialidad'];
@@ -869,6 +891,7 @@ html;
               $documento->_apellido_materno = $apellido_materno;
               $documento->_genero = $genero;
               $documento->_pais = $pais;
+              $documento->_estado = $estado;
               $documento->_email = $email;
               $documento->_telefono = $telefono;
               $documento->_especialidad = $especialidad;
@@ -1033,6 +1056,7 @@ $documento = new \stdClass();
               $apellido_materno = $_POST['apellido_materno'];
               $genero = $_POST['genero'];
               $pais = $_POST['pais'];
+              $estado = $_POST['estado'];
               $email = $_POST['email'];
               $telefono = $_POST['telefono'];
               $especialidad = $_POST['especialidad'];
@@ -1048,6 +1072,7 @@ $documento = new \stdClass();
               $documento->_apellido_materno = $apellido_materno;
               $documento->_genero = $genero;
               $documento->_pais = $pais;
+              $documento->_estado = $estado;
               $documento->_email = $email;
               $documento->_telefono = $telefono;
               $documento->_especialidad = $especialidad;
@@ -1118,6 +1143,7 @@ $documento = new \stdClass();
                 $apellido_materno = $_POST['apellido_materno'];
                 $genero = $_POST['genero'];
                 $pais = $_POST['pais'];
+                $estado = $_POST['estado'];
                 $email = $_POST['email'];
                 $telefono = $_POST['telefono'];
                 $especialidad = $_POST['especialidad'];
@@ -1133,6 +1159,7 @@ $documento = new \stdClass();
                 $documento->_apellido_materno = $apellido_materno;
                 $documento->_genero = $genero;
                 $documento->_pais = $pais;
+                $documento->_estado = $estado;
                 $documento->_email = $email;
                 $documento->_telefono = $telefono;
                 $documento->_especialidad = $especialidad;
