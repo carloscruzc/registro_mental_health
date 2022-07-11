@@ -84,9 +84,9 @@
                                 <h5 class="mb-1 font-weight-bolder">
                                     <?= $userData['nombre'] . " " . $userData['segundo_nombre'] . " " . $userData['apellido_paterno'] . " " . $userData['apellido_materno'] ?>
                                 </h5>
-                                <p class="mb-0 font-weight-bold text-sm">
+                                <!-- <p class="mb-0 font-weight-bold text-sm">
                                     Equipo Adium
-                                </p>
+                                </p> -->
                             </div>
                         </div>
                         <div class="col-sm-auto ms-sm-auto mt-sm-0 mt-3 d-flex">

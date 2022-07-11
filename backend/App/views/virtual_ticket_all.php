@@ -187,12 +187,12 @@
                     context.font="24pt Verdana";
                     context.fillStyle = "white";
 
-                    context.fillText($('#nombre-canvas').val(),140, centerY+150);
+                    context.fillText($('#nombre-canvas').val(),50, centerY+150);
 
                     context.font="24pt Verdana";
                     context.fillStyle = "white";
 
-                    context.fillText($('#apellidos-canvas').val(),140, centerY+180);
+                    context.fillText($('#apellidos-canvas').val(),50, centerY+180);
                 }
 
             };
