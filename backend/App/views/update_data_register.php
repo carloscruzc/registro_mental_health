@@ -99,11 +99,11 @@ echo $header;
 
 
                                     </div>
-                                    <div class="col-sm-3 col-12">
+                                    <!-- <div class="col-sm-3 col-12">
                                         <label class="form-label mt-4">Estado *</label>
                                         <select class="multisteps-form__select form-control all_input_select" name="state" id="state" disabled>
                                         </select>
-                                    </div>
+                                    </div> -->
                                     <div class="row">
                                         <div class="col-lg-5 col-12">
                                             <label class="form-label mt-4">Correo electrónico</label>
