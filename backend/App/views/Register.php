@@ -27,7 +27,7 @@ echo $header;
                             <div class="card-body pt-1">
                                 <form class="form-horizontal" id="email_form" action="/Register/Data" method="POST">
                                     <div class="mb-3 form-group">
-                                        <label style="font-weight:bold; font-size: 15px">Correo eléctronico institucional *</label>
+                                        <label style="font-weight:bold; font-size: 15px">Correo eléctronico *</label>
                                         <input type="email" id="email" name="email" class="form-control" placeholder="Ej. usuario@asofarma.com.mx" aria-label="Correo Eléctronico" required="required">
                                     </div>
                                     <div class="mb-3 form-group">

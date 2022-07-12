@@ -377,6 +377,18 @@
                     <div class="card card-body m-2 mb-6">
                         <ul class="list-group text-left mt-2">
                             <li class="list-group-item borderless">
+                                <h4><i class="fas fa-map-marker-alt"></i>&nbsp;&nbsp; Sede</h4>
+                                
+                                <p>
+                                    Breathless Cancun Soul 
+                                </p>
+
+                                <p>
+                                    Dirección : Blvd. Kukulcan, Km. 4.5, Num Ext: MZ 34 LT 3-C Seccion C Int SN, Col, 77500 Cancún, Q.R.
+                                </p>
+                            </li>
+
+                            <li class="list-group-item borderless">
                                 <h4><i class="fas fa-language"></i>&nbsp;&nbsp; Idioma</h4>
                                 
                                 <p>
