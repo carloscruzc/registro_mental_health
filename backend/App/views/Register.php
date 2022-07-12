@@ -9,7 +9,7 @@ echo $header;
                 <div class="row justify-content-center">
                     <div class="col-lg-5 text-center mx-auto">
                         <h1 class=" mb-2 mt-5 text-light text-bold">¡Bienvenido!</h1>
-                        <p class="text-lead text-light text-bold">MENTAL HEALTH AND THE BRAIN FORUM 2022. </p>
+                        <p class="text-lead text-light text-bold">MENTAL HEALTH AND THE BRAIN 2022. </p>
                     </div>
                 </div>
             </div>
