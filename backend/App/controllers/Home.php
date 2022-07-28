@@ -19,7 +19,7 @@ class Home extends Controller{
     }
 
     public function getUsuario(){
-      return $this->__usuario;
+      return $this->_usuario;
     }
 
     public function index() {
@@ -44,8 +44,7 @@ html;
           //  }
         //}
 
-        $data_user = HomeDao::getDataUser($this->__usuario);
-
+        $data_user = HomeDao::getDataUser($this->_usuario);
         $permisos_mexico = $data_user['pais'] != 'México' ? "style=\"display:none;\"" : "";
 
 
