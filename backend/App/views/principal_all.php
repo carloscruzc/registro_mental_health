@@ -284,7 +284,7 @@
                         </a>
                     </div> -->
 
-                    <div class="col-md-6  mt-4" id="cont-itinerario" <?=$permisos_mexico;?>>
+                    <!-- <div class="col-md-6  mt-4" id="cont-itinerario" <?=$permisos_mexico;?>>
                         <div class="card card-link">
                             <a type="button" data-toggle="modal" data-target="#ver-itinerario" class="btn-itinerario">
                                 <div class="card-body text-center">
@@ -297,7 +297,7 @@
                                 </div>
                             </a>
                         </div>
-                    </div>
+                    </div> -->
 
                     <div class="col-md-6 mt-4">
                         <a href="../../assets/img/icons/agenda.pdf" target="_blank">
