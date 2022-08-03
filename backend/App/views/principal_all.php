@@ -123,7 +123,7 @@
                                 <div class="row">
                                     <div class="col-12">
                                         <div class="card">
-                                            <img src="../../assets/img/curved-images/mental/1.jpg" alt="">
+                                            <img src="../../assets/img/curved-images/mental/inicio.jpg" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -141,7 +141,7 @@
                                 <div class="row">
                                     <div class="col-12">
                                         <div class="card">
-                                            <img src="../../assets/img/curved-images/mental/2.jpg" alt="">
+                                            <img src="../../assets/img/curved-images/mental/18.jpg" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -150,7 +150,7 @@
                                 <div class="row">
                                     <div class="col-12">
                                         <div class="card">
-                                            <img src="../../assets/img/curved-images/mental/3.jpg" alt="">
+                                            <img src="../../assets/img/curved-images/mental/19.jpg" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -159,7 +159,7 @@
                                 <div class="row">
                                     <div class="col-12">
                                         <div class="card">
-                                            <img src="../../assets/img/curved-images/mental/4.jpg" alt="">
+                                            <img src="../../assets/img/curved-images/mental/20.jpg" alt="">
                                         </div>
                                     </div>
                                 </div>
