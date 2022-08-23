@@ -422,6 +422,11 @@ echo $header;
 
                                 </a>
                             </li>
+                            <li class="nav-item">
+                                <a href="https://registro.forum-mentalbrain.com/EncuestaSatisfaccion/" target="_blank" class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center " aria-expanded="false" >
+                                    Encuesta de Satisfacción
+                                </a>
+                            </li>
                         </ul>
                         <ul class="navbar-nav d-lg-block d-none">
                             <li class="nav-item">
