@@ -23,7 +23,7 @@ echo $header;
 
                                                             <div class="row text-center mt-4">
                                                                 <div class="col-10 mx-auto">
-                                                                    <h5 class="font-weight-normal"><strong>FORO DE GINECOLOGÍA – LATAM 2022
+                                                                    <h5 class="font-weight-normal"><strong>FORO DE SALUD MENTAL – LATAM 2022
                                                                             CANCÚN. MÉXICO
                                                                         </strong></h5>
                                                                     <p>Coloque el puntaje a cada uno de los siguientes ítems, donde (Cara feliz) es “totalmente satisfecho” y (cara triste) es “nada satisfecho”.</p>
@@ -207,8 +207,8 @@ echo $header;
                                                                                 <table class="table">
                                                                                     <tr>
                                                                                         <td>
-                                                                                            <img src="/assets/images/dr_musa/dra (3).png" alt="" class="photo">
-                                                                                            DIAZ LOPEZ ELSA
+                                                                                            <img src="/assets/images/dr_musa/1.png" alt="" class="photo">
+                                                                                            MAURICIO TOHEN
                                                                                         </td>
                                                                                         <td>
                                                                                             <div class="row mt-4 d-flex justify-content-around text-center">
@@ -247,8 +247,8 @@ echo $header;
 
                                                                                     <tr>
                                                                                         <td>
-                                                                                            <img src="/assets/images/dr_musa/dr (3).png" alt="" class="photo">
-                                                                                            BARRIOS MARTINEZ DAVID
+                                                                                            <img src="/assets/images/dr_musa/2.png" alt="" class="photo">
+                                                                                            ALFREDO B. CUELLAR BARBOZA
                                                                                         </td>
                                                                                         <td>
                                                                                             <div class="row mt-4 d-flex justify-content-around text-center">
@@ -287,8 +287,8 @@ echo $header;
 
                                                                                     <tr>
                                                                                         <td>
-                                                                                            <img src="/assets/images/dr_musa/dr (4).png" alt="" class="photo">
-                                                                                            GALLO GABRIEL
+                                                                                            <img src="/assets/images/dr_musa/3.png" alt="" class="photo">
+                                                                                            MANUEL SÁNCHEZ DE CARMONA LUNA Y PARRA
                                                                                         </td>
                                                                                         <td>
                                                                                             <div class="row mt-4 d-flex justify-content-around text-center">
@@ -327,8 +327,8 @@ echo $header;
 
                                                                                     <tr>
                                                                                         <td>
-                                                                                            <img src="/assets/images/dr_musa/dr (7).png" alt="" class="photo">
-                                                                                            VÉLEZ GONZALEZ JUAN
+                                                                                            <img src="/assets/images/dr_musa/4.png" alt="" class="photo">
+                                                                                            MARÍA YOLDI NEGRETE
                                                                                         </td>
                                                                                         <td>
                                                                                             <div class="row mt-4 d-flex justify-content-around text-center">
@@ -367,8 +367,8 @@ echo $header;
 
                                                                                     <tr>
                                                                                         <td>
-                                                                                            <img src="/assets/images/dr_musa/dr (6).png" alt="" class="photo">
-                                                                                            TIRÁN JOSÉ
+                                                                                            <img src="/assets/images/dr_musa/5.png" alt="" class="photo">
+                                                                                            JESÚS RAMÍREZ BERMÚDEZ
                                                                                         </td>
                                                                                         <td>
                                                                                             <div class="row mt-4 d-flex justify-content-around text-center">
@@ -407,8 +407,8 @@ echo $header;
 
                                                                                     <tr>
                                                                                         <td>
-                                                                                            <img src="/assets/images/dr_musa/dra (2).png" alt="" class="photo">
-                                                                                            CORTÉS EDNA
+                                                                                            <img src="/assets/images/dr_musa/6.png" alt="" class="photo">
+                                                                                            ARTURO VÁZQUEZ LEDUC
                                                                                         </td>
                                                                                         <td>
                                                                                             <div class="row mt-4 d-flex justify-content-around text-center">
@@ -445,7 +445,7 @@ echo $header;
                                                                                         </td>
                                                                                     </tr>
 
-                                                                                    <tr>
+                                                                                    <!-- <tr>
                                                                                         <td>
                                                                                             <img src="/assets/images/dr_musa/dr (8).png" alt="" class="photo">
                                                                                             MIRASSOU MANUEL
@@ -804,7 +804,7 @@ echo $header;
 
                                                                                             </div>
                                                                                         </td>
-                                                                                    </tr>
+                                                                                    </tr> -->
 
                                                                                 </table>
                                                                             </li>
@@ -844,7 +844,7 @@ echo $header;
                                                                                 </div>
                                                                             </li>
 
-                                                                            <li>
+                                                                            <!-- <li>
                                                                                 <p>7. Seleccione cuáles fueron los temas de mayor interés para su práctica diaria (seleccionar hasta 3):</p>
                                                                                 <div class="row mt-4 d-flex justify-content-evenly text-center">
                                                                                     <div class="col-sm-1 ">
@@ -877,10 +877,10 @@ echo $header;
                                                                                     </div>
 
                                                                                 </div>
-                                                                            </li>
+                                                                            </li> -->
 
                                                                             <li>
-                                                                                <p>8. Considera que hubo temas importantes que quedaron fuera de la agenda</p>
+                                                                                <p>7. Considera que hubo temas importantes que quedaron fuera de la agenda</p>
                                                                                 <div class="row mt-4 d-flex justify-content-center text-center">
                                                                                     <div class="col-sm-1 ">
                                                                                         <input type="radio" class="btn-check btn-face-" id="btncheck148" name="group38" required value="si">
@@ -910,7 +910,7 @@ echo $header;
                                                                             </li>
 
                                                                             <li>
-                                                                                <p>9. Desde el punto de vista científico, volvería a participar de un foro de ginecología – latam?</p>
+                                                                                <p>8. Desde el punto de vista científico, volvería a participar de un foro de ginecología – latam?</p>
                                                                                 <div class="row mt-4 d-flex justify-content-center text-center">
                                                                                     <div class="col-sm-1 ">
                                                                                         <input type="radio" class="btn-check btn-face-" id="btncheck150" name="group39" required value="si">
@@ -931,7 +931,7 @@ echo $header;
                                                                             </li>
 
                                                                             <li>
-                                                                                <p>10. Desea agregar algún comentario adicional.</p>
+                                                                                <p>9. Desea agregar algún comentario adicional.</p>
 
 
                                                                                 <div class="row">
@@ -1005,7 +1005,7 @@ echo $header;
                             response = true;
                         }else{
                             $('#btnEnviar').attr("disabled", true);
-                            $('#msg_email').html('Este email no fue registrado en Foro Mujer Salud Musa 2022');
+                            $('#msg_email').html('Este email no fue registrado en Foro Salud Mental 2022');
                         }
                     }
                 });
@@ -1035,14 +1035,15 @@ echo $header;
                     },
                     success: function(respuesta) {
                         if (respuesta.status == 'success') {
-                            $("#btn_download_pdf").attr("href", '../PDF/'+respuesta.clave+'.pdf'); 
-                            $("#btn_download_pdf").attr("download","");
-                            $("#btn_download_pdf")[0].click();
+                            //CONSTANCIAS
+                            // $("#btn_download_pdf").attr("href", '../PDF/'+respuesta.clave+'.pdf'); 
+                            // $("#btn_download_pdf").attr("download","");
+                            // $("#btn_download_pdf")[0].click();
 
                             Swal.fire(respuesta.msg, "", respuesta.status).
                                 then((value) => {       
                                                       
-                                window.location.replace("https://foromusa.com/");
+                                window.location.replace("https://registro.forum-mentalbrain.com/");
                             });                
                              
                         
@@ -1050,14 +1051,14 @@ echo $header;
                             Swal.fire(respuesta.msg, respuesta.msg2, 'success').
                                 then((value) => {       
                                                       
-                                window.location.replace("https://foromusa.com/");
+                                window.location.replace("https://registro.forum-mentalbrain.com/");
                             });
                         }
                         else{
 
                             Swal.fire(respuesta.msg, "", respuesta.status).
                                 then((value) => {
-                                window.location.replace("https://foromusa.com/");
+                                window.location.replace("https://registro.forum-mentalbrain.com/");
                             });
 
                             

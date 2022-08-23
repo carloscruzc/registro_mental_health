@@ -18,7 +18,7 @@ class EncuestaSatisfaccion{
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="icon" type="image/vnd.microsoft.icon" href="../../../assets/img/icono.png">
         <title>
-           Login - MENTAL HEALTH
+           ENCUESTA - MENTAL HEALTH
         </title>
         <!--     Fonts and icons     -->
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
@@ -118,37 +118,37 @@ html;
         $preg_5_4 = $_POST['group9'];
         $preg_5_5 = $_POST['group10'];
         $preg_5_6 = $_POST['group11'];
-        $preg_5_7 = $_POST['group12'];
-        $preg_5_8 = $_POST['group13'];
-        $preg_5_9 = $_POST['group14'];
-        $preg_5_10 = $_POST['group15'];
-        $preg_5_11 = $_POST['group16'];
-        $preg_5_12 = $_POST['group17'];
-        $preg_5_13 = $_POST['group18'];
-        $preg_5_14 = $_POST['group19'];
-        $preg_5_15 = $_POST['group20'];
+        // $preg_5_7 = $_POST['group12'];
+        // $preg_5_8 = $_POST['group13'];
+        // $preg_5_9 = $_POST['group14'];
+        // $preg_5_10 = $_POST['group15'];
+        // $preg_5_11 = $_POST['group16'];
+        // $preg_5_12 = $_POST['group17'];
+        // $preg_5_13 = $_POST['group18'];
+        // $preg_5_14 = $_POST['group19'];
+        // $preg_5_15 = $_POST['group20'];
         $preg_6 = $_POST['group36'];
-        $preg_7_1 = $_POST['group37_1'];
-        $preg_7_2 = $_POST['group37_2'];
-        $preg_7_3 = $_POST['group37_3'];
-        $preg_7_4 = $_POST['group37_4'];
+        // $preg_7_1 = $_POST['group37_1'];
+        // $preg_7_2 = $_POST['group37_2'];
+        // $preg_7_3 = $_POST['group37_3'];
+        // $preg_7_4 = $_POST['group37_4'];
         
 
-        if(!isset($preg_7_1)){
-            $preg_7_1 = 0;
-        }
+        // if(!isset($preg_7_1)){
+        //     $preg_7_1 = 0;
+        // }
 
-        if(!isset($preg_7_2)){
-            $preg_7_2 = 0;
-        }
+        // if(!isset($preg_7_2)){
+        //     $preg_7_2 = 0;
+        // }
 
-        if(!isset($preg_7_3)){
-            $preg_7_3 = 0;
-        }
+        // if(!isset($preg_7_3)){
+        //     $preg_7_3 = 0;
+        // }
 
-        if(!isset($preg_7_4)){
-            $preg_7_4 = 0;
-        }
+        // if(!isset($preg_7_4)){
+        //     $preg_7_4 = 0;
+        // }
 
 
         $preg_8 = $_POST['group38'];
@@ -170,20 +170,20 @@ html;
         $data->_preg_5_4 = $preg_5_4;
         $data->_preg_5_5 = $preg_5_5;
         $data->_preg_5_6 = $preg_5_6;
-        $data->_preg_5_7 = $preg_5_7;
-        $data->_preg_5_8 = $preg_5_8;
-        $data->_preg_5_9 = $preg_5_9;
-        $data->_preg_5_10 = $preg_5_10;
-        $data->_preg_5_11 = $preg_5_11;
-        $data->_preg_5_12 = $preg_5_12;
-        $data->_preg_5_13 = $preg_5_13;
-        $data->_preg_5_14 = $preg_5_14;
-        $data->_preg_5_15 = $preg_5_15;
+        // $data->_preg_5_7 = $preg_5_7;
+        // $data->_preg_5_8 = $preg_5_8;
+        // $data->_preg_5_9 = $preg_5_9;
+        // $data->_preg_5_10 = $preg_5_10;
+        // $data->_preg_5_11 = $preg_5_11;
+        // $data->_preg_5_12 = $preg_5_12;
+        // $data->_preg_5_13 = $preg_5_13;
+        // $data->_preg_5_14 = $preg_5_14;
+        // $data->_preg_5_15 = $preg_5_15;
         $data->_preg_6 = $preg_6;
-        $data->_preg_7_1 = $preg_7_1;
-        $data->_preg_7_2 = $preg_7_2;
-        $data->_preg_7_3 = $preg_7_3;
-        $data->_preg_7_4 = $preg_7_4;
+        // $data->_preg_7_1 = $preg_7_1;
+        // $data->_preg_7_2 = $preg_7_2;
+        // $data->_preg_7_3 = $preg_7_3;
+        // $data->_preg_7_4 = $preg_7_4;
         $data->_preg_8 = $preg_8;
         $data->_preg_8_1 = $preg_8_1;
         $data->_preg_9 = $preg_9;
@@ -216,7 +216,8 @@ html;
                         "clave" => $user['clave']
                         
                     ];
-                    $this->generarPDF($data_pdf);
+                    // CONSTANCIA
+                    // $this->generarPDF($data_pdf);
                     $datos = [
                         "status" => "success",
                         "msg" => "¡Gracias por contestar la encuesta!",
