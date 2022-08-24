@@ -23,8 +23,7 @@ echo $header;
 
                                                             <div class="row text-center mt-4">
                                                                 <div class="col-10 mx-auto">
-                                                                    <h5 class="font-weight-normal"><strong>FORO DE SALUD MENTAL – LATAM 2022
-                                                                            CANCÚN. MÉXICO
+                                                                    <h5 class="font-weight-normal"><strong>Mental Health and the Brain 2022
                                                                         </strong></h5>
                                                                     <p>Coloque el puntaje a cada uno de los siguientes ítems, donde (Cara feliz) es “totalmente satisfecho” y (cara triste) es “nada satisfecho”.</p>
                                                                 </div>
@@ -910,7 +909,7 @@ echo $header;
                                                                             </li>
 
                                                                             <li>
-                                                                                <p>8. Desde el punto de vista científico, volvería a participar de un foro de ginecología – latam?</p>
+                                                                                <p>8. Desde el punto de vista científico, volvería a participar en el evento Mental Health and the Brain?</p>
                                                                                 <div class="row mt-4 d-flex justify-content-center text-center">
                                                                                     <div class="col-sm-1 ">
                                                                                         <input type="radio" class="btn-check btn-face-" id="btncheck150" name="group39" required value="si">
@@ -946,7 +945,7 @@ echo $header;
                                                                             <li>
                                                                                 <div class="row mt-3">
                                                                                     <div class="col-md-6 m-auto">
-                                                                                        <button class="btn btn-secondary" id="btnEnviar" >Enviar respuestas y descargar constancia</button>
+                                                                                        <button class="btn btn-secondary" id="btnEnviar" >Enviar Respuestas</button>
                                                                                         
                                                                                         <a href="" id="btn_download_pdf" style="display: none;">descargar</a>
                                                                                     </div>
