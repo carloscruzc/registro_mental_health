@@ -14,9 +14,9 @@ class Encuestas{
     $mysqli = Database::getInstance(1);
     $query=<<<sql
     INSERT INTO encuesta (nombre, email, preg_1, preg_2, 	preg_3, preg_3_txt, preg_4, preg_5_1, preg_5_2, 
-    preg_5_3, preg_5_4, preg_5_5, preg_5_6, preg_6, preg_8, preg_8_1, preg_9, preg_10) 
+    preg_5_3, preg_5_4, preg_5_5, preg_6, preg_8, preg_8_1, preg_9, preg_10) 
     VALUES (:nombre, :email, :preg_1, :preg_2, :preg_3 , :preg_3_txt, :preg_4, :preg_5_1, :preg_5_2, 
-    :preg_5_3, :preg_5_4, :preg_5_5, :preg_5_6, :preg_6, :preg_8, :preg_8_1, :preg_9, :preg_10);
+    :preg_5_3, :preg_5_4, :preg_5_5, :preg_6, :preg_8, :preg_8_1, :preg_9, :preg_10);
 sql;
 
 
@@ -34,7 +34,7 @@ sql;
     ':preg_5_3'=>$datos->_preg_5_3,
     ':preg_5_4'=>$datos->_preg_5_4,
     ':preg_5_5'=>$datos->_preg_5_5,
-    ':preg_5_6'=>$datos->_preg_5_6,
+    // ':preg_5_6'=>$datos->_preg_5_6,
     // ':preg_5_7'=>$datos->_preg_5_7,
     // ':preg_5_8'=>$datos->_preg_5_8,
     // ':preg_5_9'=>$datos->_preg_5_9,

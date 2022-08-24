@@ -404,7 +404,7 @@ echo $header;
                                                                                         </td>
                                                                                     </tr>
 
-                                                                                    <tr>
+                                                                                    <!-- <tr>
                                                                                         <td>
                                                                                             <img src="/assets/images/dr_musa/6.png" alt="" class="photo">
                                                                                             ARTURO VÁZQUEZ LEDUC
@@ -442,7 +442,7 @@ echo $header;
 
                                                                                             </div>
                                                                                         </td>
-                                                                                    </tr>
+                                                                                    </tr> -->
 
                                                                                     <!-- <tr>
                                                                                         <td>
