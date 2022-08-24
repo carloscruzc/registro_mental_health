@@ -987,34 +987,35 @@ echo $header;
 <script>
         $(document).ready(function(){
 
-            $("#email").on("blur",function(){
+            //VALIDACIÓN DE EMAIL ENCUESTA
+            // $("#email").on("blur",function(){
                 
-                var usuario = $(this).val();
-                console.log(usuario);
-                $.ajax({
-                    type:"POST",
-                    // async: false,
-                    url: "/EncuestaSatisfaccion/isUserValidate",
-                    data: {usuario},
-                    success: function(data) {
-                        console.log(data);
-                        if(data=="true"){
-                            $('#btnEnviar').attr("disabled", false);
-                            $('#msg_email').html('');
-                            response = true;
-                        }else{
-                            $('#btnEnviar').attr("disabled", true);
-                            $('#msg_email').html('Este email no fue registrado en Foro Salud Mental 2022');
-                        }
-                    }
-                });
-            });
+            //     var usuario = $(this).val();
+            //     console.log(usuario);
+            //     $.ajax({
+            //         type:"POST",
+            //         // async: false,
+            //         url: "/EncuestaSatisfaccion/isUserValidate",
+            //         data: {usuario},
+            //         success: function(data) {
+            //             console.log(data);
+            //             if(data=="true"){
+            //                 $('#btnEnviar').attr("disabled", false);
+            //                 $('#msg_email').html('');
+            //                 response = true;
+            //             }else{
+            //                 $('#btnEnviar').attr("disabled", true);
+            //                 $('#msg_email').html('Este email no fue registrado en Foro Salud Mental 2022');
+            //             }
+            //         }
+            //     });
+            // });
 
-            $("#btn_prueba").on("click", function(){
-                $("#btn_download_pdf").attr("href", '../PDF/vsMNShBOU5.pdf'); 
-                $("#btn_download_pdf").attr("download","");
-                $("#btn_download_pdf")[0].click();
-            });
+            // $("#btn_prueba").on("click", function(){
+            //     $("#btn_download_pdf").attr("href", '../PDF/vsMNShBOU5.pdf'); 
+            //     $("#btn_download_pdf").attr("download","");
+            //     $("#btn_download_pdf")[0].click();
+            // });
 
             $("#form_encuesta").on("submit", function(event){
                event.preventDefault();

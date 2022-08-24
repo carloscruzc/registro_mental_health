@@ -227,8 +227,7 @@ html;
                     $datos = [
                         "status" => "success_2",
                         "msg" => "¡Gracias por contestar la encuesta!",
-                        "msg2" => "Recuerda que la constancia solo sera liberada para aquellas personas que cuentan con el 70% de asistencia al evento."
-                                           
+                        // "msg2" => "Recuerda que la constancia solo sera liberada para aquellas personas que cuentan con el 70% de asistencia al evento."
                     ];
                 }               
                 
